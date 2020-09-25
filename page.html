@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Awesome Wendy Tester</title>
+<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+
+<style>
+	#testBox,#testResultBox,#correctAnswerBox{
+		display: none;
+	}
+#insideBox{
+	margin-bottom: 11px;
+}
+</style>
+
+</head>
+<body>
+
+<div id="intro">
+	<input type="file" id="fileInput" />
+	<button id="readFileButton">Read File</button>
+<span>
+	<input type="checkbox" id="revertedTest">
+	<label>Obratit test</label>
+</span>
+</div>
+
+<h2 style="text-align: center;">WendyTesty - Slovicka</h2>
+<div id="testBox">
+	<div id="insideBox">
+	<span id="checkResponse">
+		<label id="toTranslate"></label>
+		<input type="text" id="userInput" name="lname">
+	</span>
+		<span id="dividable">
+		<input type="checkbox" id="trennbar">
+		<label>Odlucitelne</label>
+	</span>
+		<br><br>
+		<span id="correctAnswerBox">
+			<label>Spravna odpoved mala byt: </label>
+			<label id="correctAnswer"></label>
+		</span>
+		<span>
+     			<button id="checkButton" onclick="checkAnswer()">Check</button>
+			<button id="nextButton" onclick="nextQuestion()">Next</button>
+		</span>
+	</div> 
+	<div id="testResultBox">
+	<span><label>Vysledok testu</label><label id="testResult"></label></span>
+</div>
+<label id="isTrennbar">Sloveso vsak je odlucitelne !</label>
+<button id="resetTestButton" onclick="resetTest()">Spustit znovu</button>
+</div>
+
+<script src="./pair.js"></script>
+<script src="./script.js"></script>
+
+</body>
+</html>

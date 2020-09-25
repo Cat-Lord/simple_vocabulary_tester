@@ -1,0 +1,131 @@
+die Abfahrt ~ odjezd
+die Abreise ~ odjezd
+die Altersgruppe ~ vekova skupina
+an|kommen ~ prijet, dorazit
+anderthalb ~ jeden a pul
+anderthalb Stunden ~ hodinu a pul
+der/die Angestellte ~ zamestnanec, zamestnankyne
+die Ankunft ~ prjezd, prilet
+die Anreise ~ prijezd, cesta, jizda
+die Anschrift ~ adresa
+die Atmosphäre ~ atmosfera
+auf jeden Fall ~ v kazdem pripade
+Auf Wiederhören! ~ na slysenou
+der Aufenthalt ~ pobyt
+aus|drucken ~ vytisknout
+aus|fallen ~ vypadnout
+aus|füllen ~ vyplnit
+aus|halten ~ vydrzet
+aus|steigen ~ vystoupit
+die Bahn ~ vlak
+bar ~ v hotovosti, hotove
+das Bargeld ~ hotovost
+die Bastelwerkstatt ~ kutilská dílna
+begrenzt ~ omezeny, ohraniceny
+besetzen ~ obsadit
+billig ~ levny
+bitten ~ prosit
+das Boot ~ clun
+das Budget ~ rozpocet
+buchen ~ rezervovat
+das reicht ~ to staci
+die Daten ~ data, udaje, informace
+Die Rezeption ist 24 Stunden besetzt. ~ Recepce je otevrena nonstop.
+das Doppelzimmer ~ dvouluzkovy pokoj
+der Eingang ~ vchod, vstup, vjezd
+der Eintritt ~ vstup, vstupne
+die Einzelkarte ~ vstupenka
+das Einzelzimmer ~ jednoluzkovy pokoj 
+die Entfernung ~ vzdalenost
+die Erfahrung ~ zkusenost
+erlaubt ~ povoleny
+erreichen ~ dostat se, dorazit, dosahnout
+der/die Erwachsene ~ dospely, dospela
+es klingt interessant ~ to zni zajimave
+Es passt schon! ~ To je dobre!
+die Fahrkarte ~ jizdenka
+die Fahrt ~ jizda, cesta
+der Fall ~ pad, pripad
+die Ferienwohnung ~ prazdninovy byt
+das Festival ~ festival
+gefährlich ~ nebezpecny, riskantni
+genügend ~ dostatecny, postacujici
+das Geschirr ~ nadobi
+gültig ~ platny
+günstig ~ vyhodny, priznivy
+der Hafen ~ pristav
+der Hauptbahnhof ~ hlavni nadrazi
+das Hostel ~ hostel
+der/das Check-out ~ check~out
+inbegriffen ~ vcetne, zahrnuty
+jemand ~ nekdo
+kennen|lernen ~ poznat, seznamit se
+klingen ~ znit
+kostenlos ~ bezplatny, zdarma, zadarmo
+die Kreditkarte ~ kreditni karta, kreditka, karta
+die Kurzstrecke ~ kratky usek cesty, kratka cesta
+langsam ~ pomalu
+der Mietwagen ~ pronajate vozidlo
+die Mitfahrgelegenheit ~ spolujizda
+das Motel ~ motel
+das Motorrad ~ motocykl, motorka
+der Nahbereich ~ blizke okoli
+der Nahverkehr ~ mistni doprava
+öffentlich ~ verejny
+die Oper ~ opera
+der Parkplatz ~ parkoviste
+passen ~ hodit se, padnout
+passieren ~ stat se, prihodit se
+das Passwort ~ heslo
+die Pension ~ penzion
+der Personalausweis ~ obcansky prukaz, obcanka, prukaz totoznosti
+die Postleitzahl ~ postovni smerovaci cislo, PSC
+das Privatzimmer ~ soukromy pokoj, soukroma mistnost
+reichen ~ stacit
+die Rezeption ~ recepce
+der Rezeptionist ~ recepcni
+die Rückfahrkarte ~ zpatecni jizdenka
+die Rundfahrt ~ okruzni jizda
+die S-Bahn ~ tramvaj, nadzemni metro
+der Senior ~ senior
+der Schlüssel ~ klic
+schnell ~ rychly
+schreien ~ kricet, rvat
+der Schülerausweis ~ zakovsky prukaz, studentsky prukaz 
+spannend ~ napinavy
+spülen ~ myt, oplachnout
+das Statdfest ~ mestsky festival, mestska slavnost
+statt|finden ~ konat se
+der Stern ~ hvezda
+stornieren ~ stornovat, zrusit
+die Suche ~ hledani, patrani
+die Tageskarte ~ celodenni jizdenka, vstupenka
+der Teenie ~ teenager
+teil|nehmen ~ ucastnit se
+teuer ~ drahy
+treffen ~ potkat
+tun ~ delat
+der Tunnel ~ tunel
+um|steigen ~ prestoupit
+um|ziehen ~ prestehovat se
+umweltfreundlich ~ ekologicky, setrny k zivotnimu prostredi
+die Unterkunft ~ ubytovani
+unternehmen ~ podniknout
+die Unterschrift ~ podpis
+die Unterwelt ~ podzemi
+die Veranstaltung ~ akce, udalost
+verdienen ~ vydelat, vydelavat
+die Vorkasse ~ platba predem
+wahrscheinlich ~ pravdepodobne
+wach ~ bdely, vzhuru
+werden ~ stat se
+die Werkstatt ~ dilna
+der Wettbewerb ~ soutez, zavod
+wiederholen ~ opakovat
+wild ~ divoky
+willkommen ~ vitany
+Willkommen in Hamburg! ~ Vitejte v Hamburku!
+der Workshop ~ workshop
+zahlbar ~ splatny, k zaplaceni
+die Zahlung ~ platba
+Zentraler Omnibusbahnhof ~ centralni autobusove nadrazi
