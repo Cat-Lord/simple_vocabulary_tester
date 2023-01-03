@@ -36,36 +36,66 @@
 			</div>
 		</div>
 
-		<div id="testBox">
-			<div id="insideBox">
-				<span id="checkResponse">
-					<label id="toTranslate"></label>
-					<input type="text" id="userInput" name="lname">
-				</span>
-				<span id="dividable">
-					<input type="checkbox" id="trennbar">
-					<label>Odlucitelne</label>
-				</span>
-				<br><br>
-				<span id="correctAnswerBox">
-					<label>Spravna odpoved mala byt: </label>
-					<label id="correctAnswer"></label>
-				</span>
-				<span>
-					<button id="checkButton" onclick="checkAnswer()">Check</button>
-					<button id="nextButton" onclick="nextQuestion()">Next</button>
-				</span>
-			</div>
-			<div id="testResultBox">
-				<span><label>Vysledok testu</label><label id="testResult"></label></span>
-			</div>
-			<label id="isTrennbar">Sloveso vsak je odlucitelne !</label>
-			<button id="resetTestButton" onclick="resetTest()">Spustit znovu</button>
+		<div class="row m-3 text-center">
+			<p class="fs-1 text-uppercase text-bg-success">WendyTesty - Slovicka</p>
 		</div>
 
-		<div class="row text-center">
-			<footer>&#169; Catlord 2020</footer>
+		<div class="container-fluid h-75 text-center">
+			<div class="row bg-body-secondary h-75">
+				<span class="pt-5" id="testBox">
+					<div class="row">
+						<div class="col-8">
+							<span class="float-end">
+								<span id="checkResponse">
+									<label id="toTranslate"></label>
+									<input type="text" id="userInput" name="lname">
+								</span>
+								<span id="dividable">
+									<input type="checkbox" id="trennbar">
+									<label>Odlucitelne</label>
+								</span>
+							</span>
+						</div>
+						<div class="col">
+							<span>
+								<label class="text-bg-danger px-3 py-1 rounded-pill" id="isTrennbar">Sloveso vsak je odlucitelne
+									!</label>
+							</span>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col my-2">
+							<span id="correctAnswerBox">
+								<label>Spravna odpoved mala byt: </label>
+								<label class="text-bg-warning px-3 py-1 rounded-pill" id="correctAnswer"></label>
+							</span>
+						</div>
+					</div>
+
+					<div class="row justify-content-md-center h-75 align-items-end">
+						<span class="w-50">
+							<button class="btn btn-warning" id="checkButton" onclick="checkAnswer()">Check</button>
+							<button class="btn btn-primary" id="nextButton" onclick="nextQuestion()">Next</button>
+						</span>
+				</span>
+			</div>
+
+			<div class="row">
+				<div id="testResultBox">
+					<span><label>Vysledok testu: </label><label id="testResult"></label></span>
+				</div>
+			</div>
+
+			<div class="row">
+				<button class="btn btn-outline-primary" id="resetTestButton" onclick="resetTest()">Spustit znovu</button>
+			</div>
 		</div>
+	</div>
+
+	<div class="row text-center">
+		<footer>&#169; Catlord 2020</footer>
+	</div>
 
 	</div>
 	<script src="./pair.js"></script>
