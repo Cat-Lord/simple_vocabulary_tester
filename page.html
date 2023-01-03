@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Awesome Wendy Tester</title>
-<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
-
-<style>
-	#testBox,#testResultBox,#correctAnswerBox{
-		display: none;
-	}
-#insideBox{
-	margin-bottom: 11px;
-}
-</style>
-
+	<title>Awesome Wendy Tester</title>
+	<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<div id="intro">
-	<input type="file" id="fileInput" />
-	<button id="readFileButton">Read File</button>
-<span>
-	<input type="checkbox" id="revertedTest">
-	<label>Obratit test</label>
-</span>
-</div>
+	<div class="container vh-100">
 
-<h2 style="text-align: center;">WendyTesty - Slovicka</h2>
-<div id="testBox">
-	<div id="insideBox">
-	<span id="checkResponse">
-		<label id="toTranslate"></label>
-		<input type="text" id="userInput" name="lname">
-	</span>
-		<span id="dividable">
-		<input type="checkbox" id="trennbar">
-		<label>Odlucitelne</label>
-	</span>
-		<br><br>
-		<span id="correctAnswerBox">
-			<label>Spravna odpoved mala byt: </label>
-			<label id="correctAnswer"></label>
-		</span>
-		<span>
-     			<button id="checkButton" onclick="checkAnswer()">Check</button>
-			<button id="nextButton" onclick="nextQuestion()">Next</button>
-		</span>
-	</div> 
-	<div id="testResultBox">
-	<span><label>Vysledok testu</label><label id="testResult"></label></span>
-</div>
-<label id="isTrennbar">Sloveso vsak je odlucitelne !</label>
-<button id="resetTestButton" onclick="resetTest()">Spustit znovu</button>
-</div>
-	<footer>&#169; Catlord 2020</footer>
-<script src="./pair.js"></script>
-<script src="./script.js"></script>
+		<div class="row bg-body-secondary px-5 py-3">
 
+			<div class="col">
+				<div class="intro">
+					<label class="input-upload p-2 text-bg-secondary">
+						<input type="file" class="btn btn-primary" id="fileInput" />
+						Nahraj slovicka
+					</label>
+				</div>
+			</div>
+
+			<div class="col my-auto">
+				<span class="float-end">
+					<button class="btn btn-primary" id="readFileButton">Spusti</button>
+					<label>
+						<input type="checkbox" id="revertedTest">
+						Obratit test
+					</label>
+				</span>
+			</div>
+		</div>
+
+		<div id="testBox">
+			<div id="insideBox">
+				<span id="checkResponse">
+					<label id="toTranslate"></label>
+					<input type="text" id="userInput" name="lname">
+				</span>
+				<span id="dividable">
+					<input type="checkbox" id="trennbar">
+					<label>Odlucitelne</label>
+				</span>
+				<br><br>
+				<span id="correctAnswerBox">
+					<label>Spravna odpoved mala byt: </label>
+					<label id="correctAnswer"></label>
+				</span>
+				<span>
+					<button id="checkButton" onclick="checkAnswer()">Check</button>
+					<button id="nextButton" onclick="nextQuestion()">Next</button>
+				</span>
+			</div>
+			<div id="testResultBox">
+				<span><label>Vysledok testu</label><label id="testResult"></label></span>
+			</div>
+			<label id="isTrennbar">Sloveso vsak je odlucitelne !</label>
+			<button id="resetTestButton" onclick="resetTest()">Spustit znovu</button>
+		</div>
+
+		<div class="row text-center">
+			<footer>&#169; Catlord 2020</footer>
+		</div>
+
+	</div>
+	<script src="./pair.js"></script>
+	<script src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,14 @@
+#testBox,
+#testResultBox,
+#correctAnswerBox {
+  display: none;
+}
+
+.input-upload:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+input[type="file"] {
+  display: none;
+}
